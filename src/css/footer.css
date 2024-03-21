@@ -116,6 +116,7 @@ p {
   color: #fbfbfb;
 }
 .footer-politick {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -128,6 +129,14 @@ p {
   color: rgba(251, 251, 251, 0.5);
   opacity: 0.9;
   margin-bottom: 8px;
+}
+.footer-line {
+  position: absolute;
+  top: -24px;
+  width: 100%;
+  height: 2px;
+  stroke-width: 1px;
+  stroke: rgba(251, 251, 251, 0.1);
 }
 .footer-politick-list {
   display: flex;
@@ -233,6 +242,9 @@ p {
     font-size: 14px;
     line-height: 1.29;
     opacity: 0.9;
+  }
+  .footer-line {
+    top: -28px;
   }
   .footer-politick-list {
   }
