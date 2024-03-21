@@ -7,6 +7,7 @@ p {
   display: block;
 }
 .footer {
+  margin: 0 auto;
   background-color: #0c0c0c;
   border-radius: 30px;
   padding: 40px 0 28px 0;
@@ -24,6 +25,9 @@ p {
   flex-direction: column;
   align-items: flex-start;
 }
+.footer-social-div {
+  margin-bottom: 20px;
+}
 .footer-logo {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
@@ -35,7 +39,6 @@ p {
 .footer-social-list {
   display: flex;
   gap: 10px;
-  margin-bottom: 20px;
 }
 .footer-social-item {
   border: 1px solid rgba(251, 251, 251, 0.1);
@@ -148,4 +151,95 @@ p {
   }
 }
 @media screen and (min-width: 768px) {
+  .footer {
+    width: 624px;
+  }
+  .footer-container {
+    margin: 0 40px;
+  }
+  .footer-one-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-social-div {
+    margin-bottom: 86px;
+  }
+  .footer-logo {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 20px;
+  }
+  .footer-social-list {
+  }
+  .footer-social-item {
+    width: 36px;
+    height: 36px;
+  }
+  .footer-social-links {
+  }
+  .footer-social-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .footer-address {
+    width: 160px;
+    height: 48px;
+    margin-bottom: 0;
+  }
+  .footer-address-link {
+    font-size: 14px;
+  }
+  .footer-text-one {
+    font-size: 28px;
+    line-height: 1.14;
+  }
+  .footer-two-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* column-gap: 62px; */
+    justify-content: space-between;
+    row-gap: 48px;
+  }
+  .footer-menu-list {
+    width: 400px;
+    height: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0;
+    /* column-gap: 19px; */
+  }
+  .footer-menu-item {
+  }
+  .footer-menu-link {
+    font-size: 14px;
+  }
+  .footer-text-two {
+    width: 144px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .footer-politick {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-politick-text {
+    opacity: 0.9;
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 1.29;
+    opacity: 0.9;
+  }
+  .footer-politick-list {
+  }
+  .footer-politick-item {
+  }
+  .footer-politick-link {
+    font-size: 14px;
+    line-height: 1.29;
+  }
 }
