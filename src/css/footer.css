@@ -243,3 +243,73 @@ p {
     line-height: 1.29;
   }
 }
+@media screen and (min-width: 1280px) {
+  .footer {
+    width: 1216px;
+  }
+  .footer-container {
+    width: 1136px;
+  }
+  .footer-one-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .footer-social-div {
+    margin-bottom: 0;
+    order: 1;
+  }
+  .footer-logo {
+    font-size: 20px;
+  }
+  .footer-social-list {
+  }
+  .footer-social-item {
+  }
+  .footer-social-links {
+  }
+  .footer-social-icon {
+  }
+  .footer-address {
+    order: 3;
+  }
+  .footer-address-link {
+    text-wrap: nowrap;
+  }
+  .footer-text-one {
+    width: 523px;
+    order: 2;
+  }
+  .footer-two-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 56px;
+  }
+  .footer-menu-list {
+    width: 505px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0;
+    column-gap: 40px;
+  }
+  .footer-menu-item {
+  }
+  .footer-menu-link {
+  }
+  .footer-text-two {
+    width: 162px;
+    height: 36px;
+    font-size: 14px;
+  }
+  .footer-politick {
+  }
+  .footer-politick-text {
+  }
+  .footer-politick-list {
+  }
+  .footer-politick-item {
+  }
+  .footer-politick-link {
+  }
+}
