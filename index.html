@@ -8,11 +8,55 @@
     <title>Code-hunters</title>
     
     <script type="module" crossorigin src="/Code-hunters/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Code-hunters/assets/index-eac70dbb.css">
+    <link rel="stylesheet" href="/Code-hunters/assets/index-58a284ea.css">
   </head>
   <body>
     <h1 class="header">header html</h1>
-    <h1 class="hero">hero html</h1>
+    <section class="hero-container container">
+  <div class="hero-description-box">
+    <h1 class="hero-title">
+      Welcome to our <br />
+      <span class="hero-title-color"> collection </span> of premium watches
+    </h1>
+    <p class="hero-text">
+      Our watches are not just timepieces, but also an expression of your
+      personality and lifestyle. From classic designs to modern ones, we have a
+      watch to suit every taste and occasion.
+    </p>
+  </div>
+  <div class="hero-image-section-box">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <div class="hero-photos"></div>
+    <a href="">Scroll down</a>
+  </div>
+  <picture>
+    <source
+      srcset="
+        /src/img/hero-images/hero-clock-mobile.jpg    1x,
+        /src/img/hero-images/hero-clock-mobile@2x.jpg 2x
+      "
+      media="(max-width:767px)"
+      type="image/jpeg"
+    />
+    <source
+      srcset="
+        /src/img/hero-images/hero-clock-mobile.webp    1x,
+        /src/img/hero-images/hero-clock-mobile@2x.webp 2x
+      "
+      media="(max-width:767px)"
+      type="image/webp"
+    />
+    <img
+      src="/src/img/hero-images/hero-clock-mobile.jpg"
+      alt="black clock on the grey background"
+    />
+  </picture>
+</section>
+
     <h1 class="about-us">about us html</h1>
     <h1 class="catalog">catalog html</h1>
     <h1 class="advertisement">advertisement html</h1>
