@@ -1,3 +1,36 @@
-.hero{
-    background-color: brown;
+.hero-container {
+  font-family: 'Gilroy', sans-serif;
+}
+.hero-description-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 28px;
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+.hero-title-color {
+  color: #3350e9;
+}
+.hero-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+.hero-image-section-box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 155px;
+  margin-bottom: 28px;
 }
