@@ -1,5 +1,111 @@
 .about-us{
-    
-    background-color: aqua;
-        
+    margin-bottom: 100px;
+    font-family: 'Gilroy', sans-serif;
 }
+.about-us-block-text{
+    border-radius: 50px;
+background-color: #f3f3f3;
+padding: 40px 20px;
+margin-bottom: 20px;
+}
+
+.about-us-title {
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: -0.02em;
+  margin-bottom: 28px;
+  line-height: 1;
+  color: #0c0c0c;
+}
+.about-us-text{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.28;
+letter-spacing: -0.02em;
+color: rgba(12, 12, 12, 0.7);
+}
+
+.about-us-text:first-of-type{
+    margin-bottom: 20px;
+}
+.about-us-text:last-of-type{
+    margin-bottom: 40px;
+}
+
+
+.about-us-block-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   border-radius: 16px;
+width: 160px;
+height: 48px;
+background-color: #3350e9;
+}
+.about-us-block-link:hover, .about-us-block-link:focus{
+    background: #1f3cd4;
+}
+.about-us-link{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.28571;
+color: #fbfbfb;
+}
+.about-us-block-img{
+    position: relative;
+    display: inline-block
+}
+.about-us-gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2));
+    border-radius: 30px;
+}
+
+@media only screen and (min-width:768px) {
+    .about-us-block-text{
+        padding: 80px 60px;
+        margin-bottom: 40px;
+    }
+
+    .about-us-text:last-of-type{
+        margin-bottom: 60px;
+    }
+    .about-us-title{
+font-size: 48px;
+line-height: 0.91;
+letter-spacing: -0.02em;
+margin-bottom: 40px;
+    }
+    .about-us-text{
+        font-size: 16px;
+line-height: 1.25;
+    }
+    .about-us-gradient{
+        border-radius: 50px;
+    }
+}
+
+@media only screen and (min-width:1120px) {
+    .about-us-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .about-us-block-text{
+margin-right: 40px;
+margin-bottom: 0;
+    }
+    .about-us-block-img, .about-us-block-text{
+        flex: 1;
+    }
+   .about-us-text:last-of-type{
+    margin-bottom: 40px;
+   }
+   
+}
+
