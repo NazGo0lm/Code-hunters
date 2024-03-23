@@ -11,33 +11,59 @@
     </p>
   </div>
   <div class="hero-image-section-box">
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
+    <ul class="hero-photos-list">
+      <li class="hero-photos-list-item">
+        <img
+          src="./img/hero-images/girl1.jpg"
+          srcset="./img/hero-images/girl1@2x.jpg 2x"
+          alt="team member 1"
+          height="44"
+          width="44"
+          class="hero-list-photo photo1"
+        />
+      </li>
+      <li class="hero-photos-list-item">
+        <img
+          src="./img/hero-images/boy2.jpg"
+          srcset="./img/hero-images/boy2@2x.jpg 2x"
+          alt="team member 2"
+          height="44"
+          width="44"
+          class="hero-list-photo photo2"
+        />
+      </li>
+      <li class="hero-photos-list-item">
+        <img
+          src="./img/hero-images/girl3.jpg"
+          srcset="./img/hero-images/girl3@2x.jpg 2x"
+          alt="team member 3"
+          height="44"
+          width="44"
+          class="hero-list-photo photo3"
+        />
+      </li>
     </ul>
-    <div class="hero-photos"></div>
-    <a href="">Scroll down</a>
+    <a class="hero-scroll-link" href="#footer">Scroll down</a>
   </div>
   <picture>
     <source
-      srcset="
-        /src/img/hero-images/hero-clock-mobile.jpg    1x,
-        /src/img/hero-images/hero-clock-mobile@2x.jpg 2x
-      "
-      media="(max-width:767px)"
       type="image/jpeg"
+      media="(max-width:767px)"
+      srcset="
+        ./img/hero-images/hero-clock-mobile.jpg    1x,
+        ./img/hero-images/hero-clock-mobile@2x.jpg 2x
+      "
     />
     <source
       srcset="
-        /src/img/hero-images/hero-clock-mobile.webp    1x,
-        /src/img/hero-images/hero-clock-mobile@2x.webp 2x
+        ./img/hero-images/hero-clock-mobile.webp    1x,
+        ./img/hero-images/hero-clock-mobile@2x.webp 2x
       "
       media="(max-width:767px)"
       type="image/webp"
     />
     <img
-      src="/src/img/hero-images/hero-clock-mobile.jpg"
+      src="./img/hero-images/hero-clock-mobile.jpg"
       alt="black clock on the grey background"
     />
   </picture>
