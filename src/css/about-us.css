@@ -89,4 +89,23 @@ line-height: 1.25;
     }
 }
 
+@media only screen and (min-width:1120px) {
+    .about-us-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .about-us-block-text{
+margin-right: 40px;
+margin-bottom: 0;
+    }
+    .about-us-block-img, .about-us-block-text{
+        flex: 1;
+    }
+   .about-us-text:last-of-type{
+    margin-bottom: 40px;
+   }
+   
+}
 
