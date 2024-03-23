@@ -9,30 +9,22 @@ padding: 40px 20px;
 margin-bottom: 20px;
 }
 
-@media only screen and (min-width:768px) {
-    .about-us-block-text{
-        padding: 80px 60px;
-        margin-bottom: 40px;
-    }
-    
-}
-
 .about-us-title {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 32px;
   letter-spacing: -0.02em;
-  margin-bottom: 40px;
-  line-height: 0.91667;
+  margin-bottom: 28px;
+  line-height: 1;
   color: #0c0c0c;
 }
 .about-us-text{
 font-weight: 500;
-font-size: 16px;
-line-height: 1.25;
+font-size: 14px;
+line-height: 1.28;
 letter-spacing: -0.02em;
 color: rgba(12, 12, 12, 0.7);
-
 }
+
 .about-us-text:first-of-type{
     margin-bottom: 20px;
 }
@@ -50,19 +42,14 @@ width: 160px;
 height: 48px;
 background-color: #3350e9;
 }
-
+.about-us-block-link:hover, .about-us-block-link:focus{
+    background: #1f3cd4;
+}
 .about-us-link{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.28571;
 color: #fbfbfb;
-}
-@media only screen and (min-width:768px) {
-    .about-us-title{
-font-size: 32px;
-line-height: 1;
-letter-spacing: -0.02em;
-    }
 }
 .about-us-block-img{
     position: relative;
@@ -77,3 +64,29 @@ letter-spacing: -0.02em;
     background: linear-gradient(to bottom, rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2));
     border-radius: 30px;
 }
+
+@media only screen and (min-width:768px) {
+    .about-us-block-text{
+        padding: 80px 60px;
+        margin-bottom: 40px;
+    }
+
+    .about-us-text:last-of-type{
+        margin-bottom: 60px;
+    }
+    .about-us-title{
+font-size: 48px;
+line-height: 0.91;
+letter-spacing: -0.02em;
+margin-bottom: 40px;
+    }
+    .about-us-text{
+        font-size: 16px;
+line-height: 1.25;
+    }
+    .about-us-gradient{
+        border-radius: 50px;
+    }
+}
+
+
