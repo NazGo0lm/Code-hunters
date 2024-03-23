@@ -135,6 +135,7 @@
   background-color: transparent;
   stroke: #111111;
   cursor: pointer;
+  stroke-width: 10px;
 }
 
 .burger-menu::before,
