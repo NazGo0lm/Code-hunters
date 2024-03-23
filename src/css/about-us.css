@@ -1,3 +1,7 @@
+.about-us{
+    margin-bottom: 100px;
+    font-family: 'Gilroy', sans-serif;
+}
 .about-us-block-text{
     border-radius: 50px;
 background-color: #f3f3f3;
@@ -14,7 +18,6 @@ margin-bottom: 20px;
 }
 
 .about-us-title {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 48px;
   letter-spacing: -0.02em;
@@ -23,17 +26,20 @@ margin-bottom: 20px;
   color: #0c0c0c;
 }
 .about-us-text{
-    font-family: "Gilroy", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.25;
 letter-spacing: -0.02em;
 color: rgba(12, 12, 12, 0.7);
-margin-bottom: 20px;
+
 }
-.about-us-text:last-child {
+.about-us-text:first-of-type{
+    margin-bottom: 20px;
+}
+.about-us-text:last-of-type{
     margin-bottom: 40px;
 }
+
 
 .about-us-block-link{
     display: flex;
@@ -43,22 +49,31 @@ margin-bottom: 20px;
 width: 160px;
 height: 48px;
 background-color: #3350e9;
-
 }
 
 .about-us-link{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.28571;
-
 color: #fbfbfb;
-
 }
 @media only screen and (min-width:768px) {
     .about-us-title{
 font-size: 32px;
 line-height: 1;
 letter-spacing: -0.02em;
-
     }
+}
+.about-us-block-img{
+    position: relative;
+    display: inline-block
+}
+.about-us-gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2));
+    border-radius: 30px;
 }
