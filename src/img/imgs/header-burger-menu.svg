@@ -1,0 +1,10 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<!-- <symbol id="icon-burger-menu" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3529" d="M4 11.333h24M4 20.667h24"></path>
+</symbol> -->
+<symbol id="icon-burger-menu" viewBox="0 0 32 32">
+<path stroke-width="2.8235" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" d="M1.882 10.51h28.235M1.882 21.49h28.235"></path>
+</symbol>
+</defs>
+</svg>
