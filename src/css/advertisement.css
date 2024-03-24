@@ -1,6 +1,10 @@
-.advertisement {
-  max-width: 335px;
+.ad-container {
+  padding-top: 60px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 60px;
   border-radius: 30px;
+  /* background-color: #0c0c0c; */
   background-image: linear-gradient(
       to bottom,
       rgba(12, 12, 12, 0.8),
@@ -11,12 +15,16 @@
   background-position: center;
   margin: auto;
 }
-
-.container.ad-container {
-  padding-top: 60px;
-  padding-left: 28px;
-  padding-right: 28px;
-  padding-bottom: 80px;
+@media only screen and (min-resolution: 192dpi) and (max-width: 767px) {
+  .ad-container {
+    /* background-color: #0c0c0c; */
+    background-image: linear-gradient(
+        to bottom,
+        rgba(12, 12, 12, 0.8),
+        rgba(12, 12, 12, 0.8)
+      ),
+      url(../img/ad-images/ad-background-mobile@2x.jpg);
+  }
 }
 
 .visually-hidden {
@@ -55,6 +63,7 @@
   padding: 15px 43px;
 }
 .ad-link {
+  text-wrap: nowrap;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
@@ -68,4 +77,71 @@
 .ad-link-container:hover .ad-link,
 .ad-link-container:focus .ad-link {
   color: #0c0c0c;
+}
+
+@media only screen and (min-width: 768px) {
+  .ad-container {
+    width: 100%;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(12, 12, 12, 0.8),
+        rgba(12, 12, 12, 0.8)
+      ),
+      url(../img/ad-images/ad-background-tablet.jpg);
+    padding-top: 80px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 80px;
+  }
+  .ad-text {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+  .ad-text-container {
+    margin-bottom: 32px;
+  }
+}
+
+@media only screen and (min-resolution: 192dpi) and (min-width: 768px) {
+  .ad-container {
+    background-color: #0c0c0c;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(12, 12, 12, 0.8),
+        rgba(12, 12, 12, 0.8)
+      ),
+      url(../img/ad-images/ad-background-tablet@2x.jpg);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .ad-container {
+    width: 100%;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(12, 12, 12, 0.8),
+        rgba(12, 12, 12, 0.8)
+      ),
+      url(../img/ad-images/ad-background-dekstop.jpg);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 83px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 83px;
+  }
+  .ad-text {
+    width: 690px;
+  }
+}
+
+@media only screen and (min-resolution: 192dpi) and (min-width: 1280px) {
+  .ad-container {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(12, 12, 12, 0.8),
+        rgba(12, 12, 12, 0.8)
+      ),
+      url(../img/ad-images/ad-background-dekstop@2x.jpg);
+  }
 }
