@@ -99,7 +99,8 @@
   height: 36px;
   background-color: transparent;
   border: 1px solid;
-  transition: background-color 500ms ease-in-out; /* Should be adjusted */
+  transition: background-color 500ms ease-in-out;
+  /* wachseln oben */
 }
 
 .header-social-link {
