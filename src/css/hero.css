@@ -112,3 +112,23 @@
     line-height: 1;
   }
 }
+
+@media only screen and (min-width: 1158px) {
+  .hero-box {
+    gap: 20px;
+  }
+  .hero-description-box {
+    max-width: 597px;
+  }
+  .hero-title {
+    font-size: 72px;
+    line-height: 0.875;
+  }
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .hero-image-section-box {
+    gap: 200px;
+  }
+}
