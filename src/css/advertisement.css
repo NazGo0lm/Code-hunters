@@ -1,3 +1,71 @@
-.advertisement{
-    background-color: aquamarine;
+.advertisement {
+  max-width: 335px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(12, 12, 12, 0.8),
+      rgba(12, 12, 12, 0.8)
+    ),
+    url(../img/ad-images/ad-background-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+}
+
+.container.ad-container {
+  padding-top: 60px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 80px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.ad-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 28px;
+}
+
+.ad-text-container {
+  margin-bottom: 28px;
+}
+.ad-text-color {
+  color: rgba(251, 251, 251, 0.5);
+}
+.ad-link-container {
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  padding: 15px 43px;
+}
+.ad-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+}
+.ad-link-container:hover,
+.ad-link-container:focus {
+  background-color: #fbfbfb;
+}
+.ad-link-container:hover .ad-link,
+.ad-link-container:focus .ad-link {
+  color: #0c0c0c;
 }
