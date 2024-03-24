@@ -54,7 +54,6 @@
   line-height: 1.29;
   color: var(--main);
 }
-
 .navigation-link::after {
   content: '';
   width: 8px;
@@ -65,7 +64,6 @@
   transition: opacity 500ms ease-in-out;
   /* wachseln oben */
 }
-
 .home::after {
   opacity: 1;
   transition: opacity 500ms ease-in-out;
