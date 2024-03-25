@@ -1,3 +1,6 @@
+.sale-container {
+  margin-bottom: 60px;
+}
 .sale-section-title {
   font-family: 'Gilroy', sans-serif;
   font-weight: 600;
@@ -117,6 +120,9 @@
   color: #fbfbfb;
 }
 @media only screen and (min-width: 768px) {
+  .sale-container {
+    margin-bottom: 80px;
+  }
   .sale-section-title {
     font-size: 48px;
     line-height: 0.92;
@@ -136,9 +142,7 @@
   .sale-item {
     padding: 16px 18px;
   }
-  .sale-box-img {
-    margin-bottom: 0;
-  }
+
   .sale-big-img {
     padding: 80px 112px;
     max-width: 552px;
@@ -174,9 +178,15 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .sale-container {
+    margin-bottom: 100px;
+  }
   .sale-section-container {
     display: flex;
     gap: 40px;
+  }
+  .sale-box-img {
+    margin-bottom: 0;
   }
   .sale-big-img {
     padding: 80px 50px;
