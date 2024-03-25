@@ -67,6 +67,7 @@
 }
 @media only screen and (min-width: 768px) {
   .hero-container {
+    margin: 0 auto;
     padding-top: 80px;
     padding-bottom: 80px;
   }
@@ -94,7 +95,8 @@
   .hero-image-section-box {
     width: 136px;
     flex-direction: column;
-    gap: 180px;
+    height: 260px;
+    justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 0;
   }
@@ -108,12 +110,13 @@
     left: 0;
   }
   .hero-scroll-link {
+    text-wrap: nowrap;
     font-size: 20px;
     line-height: 1;
   }
 }
 
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1280px) {
   .hero-box {
     gap: 20px;
   }
