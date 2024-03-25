@@ -5,6 +5,11 @@ p {
   padding: 0;
   display: block;
 }
+body {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
 .footer {
   margin: 0 auto;
 }
@@ -30,10 +35,7 @@ p {
   margin-bottom: 20px;
 }
 .footer-logo {
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
   font-size: 16px;
-  letter-spacing: -0.02em;
   color: #fbfbfb;
   margin-bottom: 20px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -50,8 +52,6 @@ p {
   width: 34px;
   height: 34px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-social-links {
 }
 .footer-social-icon {
   width: 18px;
@@ -71,8 +71,6 @@ p {
   margin-bottom: 40px;
 }
 .footer-address-link {
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
   font-size: 12px;
   line-height: 1.33333;
   text-transform: uppercase;
@@ -82,11 +80,9 @@ p {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-text-one {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
 }
@@ -104,11 +100,7 @@ p {
   row-gap: 8px;
   column-gap: 18px;
 }
-.footer-menu-item {
-}
 .footer-menu-link {
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
   font-size: 12px;
   line-height: 1.33333;
   text-align: center;
@@ -119,8 +111,6 @@ p {
 .footer-text-two {
   width: 83px;
   height: 48px;
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
   font-size: 12px;
   line-height: 1.33333;
   color: #fbfbfb;
@@ -132,11 +122,8 @@ p {
 }
 .footer-politick-text {
   width: 279px;
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
   font-size: 10px;
   line-height: 1.4;
-  letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.5);
   opacity: 0.9;
   margin-bottom: 8px;
@@ -156,11 +143,8 @@ p {
 .footer-politick-item {
 }
 .footer-politick-link {
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
   font-size: 10px;
   line-height: 1.4;
-  letter-spacing: -0.02em;
   text-align: right;
   color: rgba(251, 251, 251, 0.5);
   opacity: 0.9;
@@ -207,12 +191,12 @@ p {
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
   .footer-container {
-    max-width: 375px;
+    width: 375px;
   }
 }
 @media screen and (min-width: 768px) {
   .footer-container {
-    max-width: 704px;
+    width: 704px;
     padding-left: 40px;
     padding-right: 40px;
   }
@@ -226,20 +210,13 @@ p {
     margin-bottom: 86px;
   }
   .footer-logo {
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 500;
     font-size: 16px;
-    letter-spacing: -0.02em;
     color: #fbfbfb;
     margin-bottom: 20px;
-  }
-  .footer-social-list {
   }
   .footer-social-item {
     width: 36px;
     height: 36px;
-  }
-  .footer-social-links {
   }
   .footer-social-icon {
     width: 20px;
@@ -260,7 +237,6 @@ p {
   .footer-two-container {
     display: flex;
     flex-wrap: wrap;
-    /* column-gap: 62px; */
     justify-content: space-between;
     row-gap: 48px;
   }
@@ -270,9 +246,6 @@ p {
     display: flex;
     flex-wrap: wrap;
     row-gap: 0;
-    /* column-gap: 19px; */
-  }
-  .footer-menu-item {
   }
   .footer-menu-link {
     font-size: 14px;
@@ -297,10 +270,6 @@ p {
   .footer-line {
     top: -28px;
   }
-  .footer-politick-list {
-  }
-  .footer-politick-item {
-  }
   .footer-politick-link {
     font-size: 14px;
     line-height: 1.29;
@@ -308,7 +277,7 @@ p {
 }
 @media screen and (min-width: 1280px) {
   .footer-container.container {
-    max-width: 1216px;
+    width: 1216px;
   }
   .footer-one-container {
     flex-direction: row;
@@ -322,14 +291,6 @@ p {
   }
   .footer-logo {
     font-size: 20px;
-  }
-  .footer-social-list {
-  }
-  .footer-social-item {
-  }
-  .footer-social-links {
-  }
-  .footer-social-icon {
   }
   .footer-address {
     order: 3;
@@ -354,23 +315,9 @@ p {
     row-gap: 0;
     column-gap: 40px;
   }
-  .footer-menu-item {
-  }
-  .footer-menu-link {
-  }
   .footer-text-two {
     width: 162px;
     height: 36px;
     font-size: 14px;
-  }
-  .footer-politick {
-  }
-  .footer-politick-text {
-  }
-  .footer-politick-list {
-  }
-  .footer-politick-item {
-  }
-  .footer-politick-link {
   }
 }
