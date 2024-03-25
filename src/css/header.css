@@ -12,6 +12,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .logo {
@@ -112,8 +114,14 @@
 .header-social-link:hover,
 .header-social-link:focus {
   background-color: #0c0c0c;
-  fill: var(--background);
+  fill: #FBFBFB;
   border-color: rgba(251, 251, 251, 0.1);
+}
+
+@media screen and (max-width: 374px) {
+  .header-container{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1279px) {

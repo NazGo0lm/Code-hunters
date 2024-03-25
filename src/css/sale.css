@@ -83,6 +83,7 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   padding: 8px 12px 8px;
+  border: none;
 }
 .sale-card-old-price {
   font-family: 'Gilroy', sans-serif;
