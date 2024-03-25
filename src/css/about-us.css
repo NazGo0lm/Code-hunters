@@ -64,20 +64,24 @@ color: #fbfbfb;
     background: linear-gradient(to bottom, rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2));
     border-radius: 30px;
 }
-@media only screen and (max-width:374px) {
-    .about-us-block{
-        /* display: block; */
-        margin-left: auto;
-        margin-right: auto;
-    }
+ @media only screen and (max-width:374px) {
+  
     .about-us-block-img{
-            position: relative;
+             
              display: block; 
-            width: 335px;
+             width: 100%; 
             margin-left: auto;
             margin-right: auto;
     }
-}
+
+    .about-us-gradient{
+        display: block ;
+        width: 335px;
+        margin-left: auto ;
+        margin-right: auto ;
+    }
+   
+} 
 @media only screen and (min-width:768px) {
     .about-us{
         margin-bottom: 80px;
