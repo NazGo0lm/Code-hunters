@@ -87,6 +87,12 @@
   width: 204px;
 }
 
+@media screen and (max-width: 374px) {
+  .imgs-catalog{
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 375px) {
   .katalog-container {
     width: 320px;
