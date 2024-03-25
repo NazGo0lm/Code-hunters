@@ -4,7 +4,8 @@
   padding-right: 28px;
   padding-bottom: 60px;
   border-radius: 30px;
-  /* background-color: #0c0c0c; */
+  margin: auto;
+  margin-bottom: 60px;
   background-image: linear-gradient(
       to bottom,
       rgba(12, 12, 12, 0.8),
@@ -13,8 +14,8 @@
     url(../img/ad-images/ad-background-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  margin: auto;
 }
+
 @media only screen and (min-resolution: 192dpi) and (max-width: 767px) {
   .ad-container {
     /* background-color: #0c0c0c; */
@@ -92,6 +93,7 @@
     padding-left: 64px;
     padding-right: 64px;
     padding-bottom: 80px;
+    margin-bottom: 80px;
   }
   .ad-text {
     font-size: 48px;
@@ -129,6 +131,7 @@
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 83px;
+    margin-bottom: 100px;
   }
   .ad-text {
     width: 690px;
