@@ -54,7 +54,6 @@
   line-height: 1.29;
   color: var(--main);
 }
-
 .navigation-link::after {
   content: '';
   width: 8px;
@@ -65,7 +64,6 @@
   transition: opacity 500ms ease-in-out;
   /* wachseln oben */
 }
-
 .home::after {
   opacity: 1;
   transition: opacity 500ms ease-in-out;
@@ -137,6 +135,7 @@
   border: none;
   background-color: transparent;
   stroke: #111111;
+  /* fill: none; */
   cursor: pointer;
 }
 
@@ -223,6 +222,7 @@
   justify-content: center;
   background-color: transparent;
   border: none;
+  /* fill:none */
   stroke: var(--background);
 }
 
