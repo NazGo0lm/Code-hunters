@@ -44,49 +44,55 @@
   color: rgba(12, 12, 12, 0.5);
 }
 
+.catalog-btn {
+  border: none;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background-color: #3350e9;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  margin-top: 40px;
+}
+
+.catalog-non {
+  display: none;
+}
+.catalog-section {
+  padding-bottom: 60px;
+}
+
+.catalog-title {
+  margin-bottom: 24px;
+  font-size: 32px;
+  line-height: 1;
+}
+.txt-catalog {
+  width: 279px;
+  margin-top: 10px;
+  margin-right: 32px;
+  margin-left: 32px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.catalog-list-img {
+  width: 204px;
+}
+
 @media screen and (min-width: 375px) {
-  .catalog-section {
-    padding-bottom: 60px;
-  }
-  .catalog-non {
-    display: none;
-  }
-  .txt-catalog {
-    width: 279px;
-    margin-top: 10px;
-    margin-right: 32px;
-    margin-left: 32px;
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    flex-direction: column;
-    gap: 8px;
-  }
   .katalog-container {
     width: 320px;
     padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
-  }
-  .catalog-title {
-    margin-bottom: 24px;
-    font-size: 32px;
-    line-height: 1;
-  }
-
-  .catalog-btn {
-    border: none;
-    border-radius: 16px;
-    width: 160px;
-    height: 48px;
-    background-color: #3350e9;
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.28571;
-    text-align: center;
-    color: #fbfbfb;
-    margin-top: 40px;
   }
 }
 
@@ -102,6 +108,10 @@
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .catalog-list-img {
+    width: 268px;
   }
 
   .catalog-title {
@@ -136,6 +146,10 @@
   }
   .catalog-section {
     padding-bottom: 100px;
+  }
+
+  .catalog-list-img {
+    width: 292px;
   }
 
   .box-catalog {
