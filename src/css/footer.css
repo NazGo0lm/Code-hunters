@@ -1,5 +1,5 @@
-li,
 ul,
+li,
 a,
 p {
   padding: 0;
@@ -154,11 +154,6 @@ p {
   fill: #fbfbfb;
 }
 /* ======ivent========== */
-.footer-social-item:hover,
-.footer-social-item:focus {
-  background-color: #fbfbfb;
-  cursor: pointer;
-}
 .footer-social-item:hover .footer-social-icon,
 .footer-social-item:focus .footer-social-icon {
   fill: #3350e9;
