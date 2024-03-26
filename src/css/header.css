@@ -1,6 +1,9 @@
 .container {
   min-width: 320px;
 }
+html{
+  scroll-behavior: smooth;
+}
 .page-header {
   position: sticky;
   top: 0;
