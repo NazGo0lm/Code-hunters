@@ -110,7 +110,7 @@
     left: 0;
   }
   .hero-scroll-link {
-    text-wrap: nowrap;
+    /* text-wrap: nowrap; */
     font-size: 20px;
     line-height: 1;
   }

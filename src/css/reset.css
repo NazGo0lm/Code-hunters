@@ -83,25 +83,25 @@ img {
 /*font styles*/
 
 @font-face {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy' sans-serif;
   src: url(../Gilroy/Gilroy-Medium.ttf);
   font-style: normal;
   font-weight: 500;
 }
 @font-face {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy' sans-serif;
   src: url(../Gilroy/Gilroy-Medium.ttf);
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy' sans-serif;
   src: url(../Gilroy/Gilroy-Medium.ttf);
   font-style: normal;
   font-weight: 600;
 }
 @font-face {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy' sans-serif;
   src: url(../Gilroy/Gilroy-Medium.ttf);
   font-style: normal;
   font-weight: 700;

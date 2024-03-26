@@ -66,7 +66,7 @@ color: #fbfbfb;
 }
  @media only screen and (max-width:374px) {
   
-    .about-us-block-img{
+    /* .about-us-block-img{
              
              display: block; 
              width: 100%; 
@@ -79,7 +79,7 @@ color: #fbfbfb;
         width: 335px;
         margin-left: auto ;
         margin-right: auto ;
-    }
+    } */
    
 } 
 @media only screen and (min-width:768px) {

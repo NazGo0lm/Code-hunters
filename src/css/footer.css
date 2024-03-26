@@ -294,7 +294,7 @@ p {
     order: 3;
   }
   .footer-address-link {
-    text-wrap: nowrap;
+    /* text-wrap: nowrap; */
   }
   .footer-text-one {
     width: 523px;
