@@ -164,6 +164,7 @@ p {
 .footer-address:focus .footer-address-link {
   color: #3350e9;
   scale: 1.1;
+  cursor: default;
 }
 .footer-politick-item:hover .footer-politick-link,
 .footer-politick-item:focus .footer-politick-link {
