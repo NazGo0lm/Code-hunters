@@ -62,7 +62,7 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: var(--accent);
+  background-color: #3350E9;
   opacity: 0;
   transition: opacity 500ms ease-in-out;
   /* wachseln oben */
@@ -114,9 +114,9 @@
 
 .header-social-link:hover,
 .header-social-link:focus {
-  background-color: #0c0c0c;
-  fill: #fbfbfb;
-  border-color: rgba(251, 251, 251, 0.1);
+  /* background-color: #0c0c0c; */
+  fill: #3350E9;
+  border-color: rgba(3350E9, 0.1); 
 }
 
 @media screen and (max-width: 374px) {
@@ -205,7 +205,7 @@
       rgba(12, 12, 12, 0.92),
       rgba(12, 12, 12, 0.92)
     ),
-    url(/img/modal-bg/modal-bg-mobile.jpg);
+    url("/src/img/header-img/background-phone.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -259,6 +259,22 @@
   color: var(--background);
 }
 
+/*navigation only for home*/
+/* .modal-menu-navigation-link-first{
+  position: relative;
+}
+.modal-menu-navigation-link-first::after {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #3350E9;
+  left: 30px;
+  bottom: -10px;
+  /* border-radius: 2px; /
+} */
+
 .modal-menu-social-link {
   border-color: rgba(251, 251, 251, 0.1);
   fill: #ffff;
@@ -268,9 +284,9 @@
 
 .modal-menu-social-link:hover,
 .modal-menu-social-link:focus {
-  background-color: #fcfcfc;
-  fill: rgba(12, 12, 12, 0.85);
-  border-color: rgba(91, 91, 91, 0.1);
+  /* background-color: #fcfcfc; */
+  fill: #fcfcfc;
+  border-color: rgba(#FBFBFB, 0.1);
 }
 
 @media only screen and (min-width: 768px) {
@@ -281,7 +297,7 @@
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url(/img/modal-bg/modal-bg-tablet.jpg);
+      url("../img/header-img/background-tablet.jpg");
   }
 
   .modal-menu-container {
@@ -318,16 +334,16 @@
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url(/img/modal-bg/modal-bg-mobile@2x.jpg);
+      url("../img/header-img/background-phone@2x.jpg");
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
     .modal-menu {
       background-image: linear-gradient(
           to bottom,
           rgba(12, 12, 12, 0.92),
           rgba(12, 12, 12, 0.92)
         ),
-        url(/img/modal-bg/modal-bg-tablet@2x.jpg);
+        url("../img/header-img/background-tablet@2x.jpg");
     }
   }
 }
