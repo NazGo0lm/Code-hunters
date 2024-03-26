@@ -13,6 +13,7 @@
   margin-bottom: 28px;
 }
 .hero-title {
+  text-wrap: nowrap;
   font-weight: 600;
   font-size: 40px;
   line-height: 0.95;
