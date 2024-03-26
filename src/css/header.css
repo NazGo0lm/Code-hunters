@@ -115,22 +115,21 @@
 .header-social-link:hover,
 .header-social-link:focus {
   background-color: #0c0c0c;
-  fill: #FBFBFB;
+  fill: #fbfbfb;
   border-color: rgba(251, 251, 251, 0.1);
 }
 
 @media screen and (max-width: 374px) {
-  .header-container{
-    
+  .header-container {
   }
   /* .page-header{
     width: 100%;
   } */
-  .header-logo{
+  .header-logo {
     margin-right: 0;
   }
-  .container{
-    min-width: 100%; 
+  .container {
+    min-width: 100%;
   }
 }
 
@@ -192,7 +191,6 @@
 /* Modal */
 
 .modal-menu {
-  
   position: fixed;
   top: 0;
   right: 0;
@@ -201,6 +199,7 @@
   width: 200px;
   transform: translateX(100%);
   background-color: var(--main);
+  color: #ffff;
   background-image: linear-gradient(
       to bottom,
       rgba(12, 12, 12, 0.92),
@@ -246,9 +245,10 @@
 }
 
 .modal-close-btn-icon {
-  width: 17px;
-  height: 17px;
+  width: 34px;
+  height: 34px;
 }
+
 .modal-menu-nav-list {
   flex-direction: column;
   gap: 24px;
@@ -261,7 +261,7 @@
 
 .modal-menu-social-link {
   border-color: rgba(251, 251, 251, 0.1);
-  fill: var(--background);
+  fill: #ffff;
   transition: fill 500ms ease-in-out;
   /* wachseln oben */
 }
@@ -298,9 +298,10 @@
     width: 60px;
     height: 60px;
   }
+
   .modal-close-btn-icon {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
   }
 }
 
