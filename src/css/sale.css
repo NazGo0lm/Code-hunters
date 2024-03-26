@@ -25,7 +25,7 @@
   justify-content: center;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 16px;
-  max-width: auto;
+  max-width: 100%;
   height: auto;
   background-color: #f3f3f3;
   padding: 13px 14px;
@@ -35,7 +35,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: auto;
+  max-width: 100%;
   height: auto;
   background-color: #f3f3f3;
   padding: 50px;
@@ -83,6 +83,7 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   padding: 8px 12px 8px;
+  border: none;
 }
 .sale-card-old-price {
   font-family: 'Gilroy', sans-serif;
