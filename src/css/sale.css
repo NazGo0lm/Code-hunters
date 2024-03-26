@@ -145,8 +145,15 @@
   }
 
   .sale-big-img {
-    padding: 80px 112px;
+    /* padding: 80px 112px; */
+    padding: 0;
     max-width: 552px;
+    height: 558px;
+    background-color: transparent;
+    border: 0;
+    /*552 558*/
+    
+    
   }
   .sale-card {
     padding: 60px;
@@ -179,6 +186,17 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .sale-big-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 100%;
+      height: auto;
+      background-color: #f3f3f3;
+      padding: 50px;
+      border: 1px solid rgba(12, 12, 12, .05);
+      border-radius: 30px;
+    }
   .sale-container {
     padding-bottom: 100px;
   }

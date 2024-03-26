@@ -1,6 +1,6 @@
 .contact-us-section {
     padding-top: 0;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
 }
 
 @media screen and (min-width:375px){
@@ -174,9 +174,9 @@
         padding: 17px 63px;
         
     }
-    .contact-us-section{
+    /* .contact-us-section{
         padding-bottom: 80px;
-    }
+    } */
 }
 
 
@@ -190,6 +190,7 @@
     
         margin-left: auto;
         margin-right: auto; 
+        padding-bottom: 100px;
         
     
     
@@ -203,6 +204,7 @@
         width: 580px;
         height: 556px;
         margin-right: 40px;
+        margin-bottom: 0;
     }
     .cus-con-div {
         display: flex;
@@ -213,9 +215,9 @@
         min-width: 530px;
         height: 556px;
     }
-        .contact-us-section {
-            padding-bottom: 100px;
-        }
+         /* .contact-us-section {
+            padding-bottom: 20px;
+        }  */
 }
 
 

@@ -5,7 +5,7 @@
   padding-bottom: 60px;
   border-radius: 30px;
   margin: auto;
-  margin-bottom: 60px;
+  
   background-image: linear-gradient(
       to bottom,
       rgba(12, 12, 12, 0.8),
@@ -14,6 +14,9 @@
     url(../img/ad-images/ad-background-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
+}
+.container{
+  padding-bottom: 60px;
 }
 /* .ad-container.container {
   /* padding-left: 28px;
@@ -65,6 +68,7 @@
   width: 160px;
   height: 48px;
   padding: 15px 43px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ad-link {
@@ -74,6 +78,7 @@
   line-height: 1.28571;
   text-align: center;
   color: #fbfbfb;
+  
 }
 .ad-link-container:hover,
 .ad-link-container:focus {
@@ -97,7 +102,10 @@
     padding-left: 64px;
     padding-right: 64px;
     padding-bottom: 80px;
-    margin-bottom: 80px;
+    
+  }
+  .container{
+    padding-bottom: 80px;
   }
   /* .ad-container.container {
     padding-left: 64px;
@@ -139,8 +147,11 @@
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 83px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     max-width: 1150px;
+  }
+  .advertisement{
+    padding-bottom: 100px;
   }
   /* .ad-container.container {
     padding-left: 80px;

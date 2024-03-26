@@ -66,9 +66,9 @@
 .catalog-non {
   display: none;
 }
-.catalog-section {
+/* .catalog-section {
   padding-bottom: 60px;
-}
+} */
 
 .catalog-title {
   margin-bottom: 24px;
@@ -100,9 +100,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .catalog-section {
+  /* .catalog-section {
     padding-bottom: 80px;
-  }
+  } */
   .box-catalog {
     justify-content: center;
     display: flex;
@@ -147,9 +147,9 @@
   .catalog-container {
     width: 1150px;
   }
-  .catalog-section {
+  /* .catalog-section {
     padding-bottom: 100px;
-  }
+  } */
 
   .catalog-list-img {
     width: 292px;
