@@ -42,6 +42,7 @@
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
+  padding-top: 8px;
 }
 
 .catalog-btn {
@@ -73,14 +74,7 @@
 }
 .txt-catalog {
   width: 279px;
-  margin-top: 10px;
-  margin-right: 32px;
-  margin-left: 32px;
-  display: flex;
-  align-items: start;
-  justify-content: start;
-  flex-direction: column;
-  gap: 8px;
+  padding-top: 10px;
 }
 
 .catalog-list-img {
